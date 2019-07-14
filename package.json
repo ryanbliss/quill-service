@@ -1,0 +1,22 @@
+{
+  "name": "quill-service",
+  "version": "1.0.0",
+  "description": "Simple REST API for converting Delta to RichText and vice versa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanbliss/quill-service.git"
+  },
+  "keywords": [
+    "quill"
+  ],
+  "author": "Ryan Bliss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanbliss/quill-service/issues"
+  },
+  "homepage": "https://github.com/ryanbliss/quill-service#readme"
+}
