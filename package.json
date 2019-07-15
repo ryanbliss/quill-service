@@ -4,6 +4,7 @@
   "description": "Simple REST API for converting Delta to RichText and vice versa.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +21,14 @@
   },
   "homepage": "https://github.com/ryanbliss/quill-service#readme",
   "dependencies": {
-    "jsdom": "^15.1.1",
-    "quill": "^1.3.6"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-quill-converter": "^0.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "nodemon": "^1.18.9"
   }
 }
