@@ -1,10 +1,9 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+const { convertHtmlToDelta, convertDeltaToHtml, convertTextToDelta, } = require('node-quill-converter');
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
-const { convertHtmlToDelta, convertDeltaToHtml, convertTextToDelta, } = require('node-quill-converter');
 
 app.post('/delta', (req, res) => {
     const html = req.body.html;
